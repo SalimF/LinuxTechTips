@@ -3,7 +3,7 @@
 #include <time.h>
 #include <unistd.h>
 int main ()
-{    FILE *p   ;  char ch    ;  
+{    char ch    ;  
 srand ( time(NULL) )         ;
 int a = rand()  % 400  + 50  ; // Random number 
 char  rnd[20]  ;
