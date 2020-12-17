@@ -11,11 +11,7 @@ char buf[526]    ;
 const char *homedir = getpwuid(getuid())->pw_dir;
 sprintf(rnd, "%d", a);
 snprintf(buf,sizeof buf,"%s%s%s%s%s","convert '*.jpg[800x]' -quality 60","%"," ",rnd,"_%03d.jpg" ); 
-
 system(buf);
  return 0;
-
 }
-
-
 
